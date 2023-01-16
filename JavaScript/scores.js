@@ -2,19 +2,19 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     // Retrieve the high scores
-    let highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+    var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
   
     // Arrange scores in descending order
     highScores.sort((a, b) => b.score - a.score);
   
     // Retrieve the high scores list element
-    let highScoresList = document.getElementById("highscores");
+    var highScoresList = document.getElementById("highscores");
   
     // Loop over scores and add to list
-    for (let i = 0; i < highScores.length; i++) {
-      let score = highScores[i];
+    for (var i = 0; i < highScores.length; i++) {
+      var score = highScores[i];
   
-      let li = document.createElement("li");
+      var li = document.createElement("li");
       li.textContent = `${score.initials} - ${score.score}`;
       highScoresList.appendChild(li);
     }

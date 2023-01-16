@@ -23,3 +23,11 @@ A quiz page that is functional when deployed onto the URL and has the following 
   * When the game ends, it  displays their score and give the user the ability to save their initials and their score
   *Application loads without error.
   
+  
+## Screenshot and Animation
+
+The following animation demonstrates the application functionality:
+
+![Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their intials, then clears their intials and starts over.](./assets/08-web-apis-challenge-demo.gif)
+
+./assets/coding-quiz-display.png

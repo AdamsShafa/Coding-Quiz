@@ -4,6 +4,8 @@
 
 A timed coding quiz with multple-chooice questions with updated HTML and CSS powered by JavaScript code. 
 
+:point_right: [Go to Coding-Quiz Page](https://adamsshafa.github.io/Coding-Quiz/) :point_left:
+
 
 
 ## Installations

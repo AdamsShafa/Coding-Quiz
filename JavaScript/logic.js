@@ -1,5 +1,5 @@
 // Computing currentQuestion, timeLeft, timeInterval and score variables
-var timeLeft = 75;
+var timeLeft = 40;
 var timerInterval;
 var currentQuestionIndex =0;
 var score =0;
